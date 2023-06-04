@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.App{
+    display: flex;  
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(231, 239, 237);
+
+}
+#contactlis{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background-color: beige;
+    margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#convers{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 2;
+    background-color: rgb(246, 246, 245);
 }
+#pimg{
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-right: 250px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.icon2{
+    height: 25px;
+    width: 25px;
+    margin-top: 18px;
+    margin-left: 35px;
 }
+.icons{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.searchd{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 10px;
+    border: 0cap;
+    border-color: white;
+    text-size-adjust: bold;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 25px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 10px;
+    border: 0cap;
+    border-color: white;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 10px;
+
 }
